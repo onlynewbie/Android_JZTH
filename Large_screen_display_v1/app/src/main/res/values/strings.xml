@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Large_screen_display_v1</string>
+    <string name="equ_name">设备名称</string>
+    <string name="equ_model">设备型号</string>
+    <string name="address">安装地区</string>
+    <string name="status">工作状态</string>
+    <string name="fault_information">报警信息</string>
+    <string name="tab_1">首页</string>
+    <string name="tab_2">销售情况</string>
+    <string name="tab_3">监控</string>
+</resources>

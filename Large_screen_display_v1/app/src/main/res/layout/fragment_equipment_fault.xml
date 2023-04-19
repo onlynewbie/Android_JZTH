@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <com.cjj.MaterialRefreshLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/fault_refresh"
+        app:wave_color="@color/teal_700"
+        app:overlay="false"
+        app:wave_show="true"
+        app:wave_height_type="normal"
+        android:padding="10dp"
+        >
+            <com.example.large_screen_display_v1.view.DataGridViewPlus
+                android:id="@+id/rv_equ_fault"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:show_header="true"
+                app:row_height="100">
+            </com.example.large_screen_display_v1.view.DataGridViewPlus>
+    </com.cjj.MaterialRefreshLayout>
+
+
+</LinearLayout>
